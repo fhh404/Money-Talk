@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6254" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="userEvaluteCell" rowHeight="130" id="KGk-i7-Jjw" customClass="UserEvaluteCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="130"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="评价：" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ET2-CI-J7L">
+                        <rect key="frame" x="14" y="8" width="39" height="16"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" tag="100" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="evaluteDegree（undid）.png" translatesAutoresizingMaskIntoConstraints="NO" id="8bD-JR-T6l">
+                        <rect key="frame" x="48" y="9" width="19" height="16"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" tag="101" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="evaluteDegree（undid）.png" translatesAutoresizingMaskIntoConstraints="NO" id="xCM-XW-LBd">
+                        <rect key="frame" x="69" y="9" width="19" height="16"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" tag="102" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="evaluteDegree（undid）.png" translatesAutoresizingMaskIntoConstraints="NO" id="ZdW-vs-mVz">
+                        <rect key="frame" x="90" y="9" width="19" height="16"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" tag="103" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="evaluteDegree（undid）.png" translatesAutoresizingMaskIntoConstraints="NO" id="1Uo-4J-AXL">
+                        <rect key="frame" x="111" y="9" width="19" height="16"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" tag="104" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="evaluteDegree（undid）.png" translatesAutoresizingMaskIntoConstraints="NO" id="Chs-N4-0Ik">
+                        <rect key="frame" x="132" y="9" width="19" height="16"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="数量：20" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6ry-eq-t3U">
+                        <rect key="frame" x="257" y="9" width="58" height="16"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="grayLine.png" translatesAutoresizingMaskIntoConstraints="NO" id="aEk-ZW-YKa">
+                        <rect key="frame" x="0.0" y="30" width="320" height="1"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kVu-mD-IyX">
+                        <rect key="frame" x="14" y="35" width="280" height="56"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="13******65" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uPc-Ax-Et4">
+                        <rect key="frame" x="14" y="100" width="86" height="20"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2014-05-24" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hYK-dj-MR0">
+                        <rect key="frame" x="222" y="100" width="86" height="20"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="dateLabel" destination="hYK-dj-MR0" id="HAF-SB-5bZ"/>
+                <outlet property="evaluteContentLabel" destination="kVu-mD-IyX" id="3ad-cC-g60"/>
+                <outlet property="fifthStarImage" destination="Chs-N4-0Ik" id="gJP-U7-N2p"/>
+                <outlet property="fouthStarImage" destination="1Uo-4J-AXL" id="g1g-6F-cDG"/>
+                <outlet property="fristStarImage" destination="8bD-JR-T6l" id="3rf-t7-tBZ"/>
+                <outlet property="numbersLabel" destination="6ry-eq-t3U" id="0Ex-gF-0nM"/>
+                <outlet property="phoneNumberLabel" destination="uPc-Ax-Et4" id="vca-4K-0of"/>
+                <outlet property="secondStarImage" destination="xCM-XW-LBd" id="G6Y-eH-IZS"/>
+                <outlet property="thirdStarImage" destination="ZdW-vs-mVz" id="3TP-lC-Dzy"/>
+            </connections>
+            <point key="canvasLocation" x="254" y="239"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="evaluteDegree（undid）.png" width="25" height="20"/>
+        <image name="grayLine.png" width="1" height="1"/>
+    </resources>
+</document>
